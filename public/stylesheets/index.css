@@ -1,0 +1,35 @@
+body {
+    background: url("/images/paper1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.panel-default {
+    opacity: 0.9;
+    margin-top: 100px;
+}
+
+.form-group.last {
+    margin-bottom: 0px;
+}
+
+.my-corners{
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 255px);
+    z-index: 2;
+}
+
+.my-corners div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.my-corners div span{
+    color: #5379fa !important;
+}
